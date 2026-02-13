@@ -11,8 +11,14 @@ Open the folder that contains the LARAVEL file
     install composer first in your project composer install    
     once install  
     Type this in terminal  { php artisan serve }   
-    download npm if you can  
+    download npm if needed
     wait for it to be done    
-    
-     
-    5. If 404 ERROR just add in the http://127.0.0.1:8000 this /things.     
+    if continue to error bash this   
+    copy .env.example .env  php artisan key:generate   
+    do not migrate WARNING   
+    resources/views/welcome.blade.php   
+    resources/views/games.blade.php   
+    then do this   
+    add /thinks to localhost if the laravel main page shows up   
+
+  
